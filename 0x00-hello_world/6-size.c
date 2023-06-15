@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - This is my starting point 
+ * main - This is my starting point
  *
  * Return: My program returns 0 to mean its a success
  */
