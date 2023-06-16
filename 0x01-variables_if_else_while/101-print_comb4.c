@@ -1,25 +1,25 @@
 #include<stdio.h>
 
 /**
- * main - some text here
+ * main - Prints a combinations of two digits numbers
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n, m, l;
+	int n, m, k;
 
 	for (n = 48; n < 58; n++)
 	{
 		for (m = 49; m < 58; m++)
 		{
-			for (l = 50; l < 50; l++)
+			for (k = 50; k < 58; k++)
 			{
-				if (l > m && m > n)
+				if (k > m && m > n)
 				{
 					putchar(n);
 					putchar(m);
-					putchar(l);
+					putchar(k);
 					if (n != 55 || m != 56)
 					{
 						putchar(',');
