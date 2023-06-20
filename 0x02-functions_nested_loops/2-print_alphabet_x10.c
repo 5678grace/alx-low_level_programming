@@ -10,19 +10,17 @@ void print_alphabet_x10(void)
 
 	int i;
 
-	i=0;
+	i = 0;
 
-	while(i<10)
+	while(i < 10)
 	{
-		alp= 'a';
-		
+		alp = 'a';
 		while(alp <= 'z')
 		{
-			_putchar(alp);
+			_putchar (alp);
 			alp++;
 		}
 		_putchar('\n');
 		i++;
 	}
 }	
-	
